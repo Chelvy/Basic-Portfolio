@@ -1,0 +1,13 @@
+.container {
+    width: 960px;
+}
+
+.container img {
+    width: 10%;
+    height: auto;
+}
+
+.texts {
+    width: 90%;
+    float: left;
+}
