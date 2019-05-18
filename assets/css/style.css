@@ -1,13 +1,184 @@
+/*Style the html body*/
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
 .container {
-    width: 960px;
+   min-height:100%;
+   position:relative;
 }
 
-.container img {
-    width: 10%;
-    height: auto;
+.Main_header {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  overflow: hidden;
+  max-width: none;
+  margin: 0 150px;
+  height: 50px;
+  background-color: #ffffff;
+  border-color:#cccccc;
 }
 
-.texts {
-    width: 90%;
-    float: left;
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding-top: 15px;
+  width:130px;
+  height:50px;
+  background-color: #4aaaa5;
+  float: left;
+}
+
+button, a {
+  background: none;
+  border: none;
+  float: right;
+  margin-top: 10px;
+  color: #777777;
+  text-decoration: none;
+}
+
+.Main_Content {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  overflow: hidden;
+  max-width: none;
+  height: auto;
+  background-color: #dddddd;
+}
+
+.Img_Text {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  overflow: hidden;
+  max-width: none;
+  height: 585px;
+  background-color: #ffffff;
+  padding: 20px 20px 20px 20px;
+  margin: 30px 150px 100px 150px;
+}
+
+.Cont_Form {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  overflow: hidden;
+  max-width: none;
+  height: 525px;
+  background-color: #ffffff;
+  padding: 20px 20px 20px 20px;
+  margin: 30px 150px 160px 150px;
+}
+
+img {
+  height:auto;
+  padding: 10px 10px 10px 0px;
+}
+
+h2, h4, h5 {
+  color: #4aaaa5;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0px 10px 0px;
+}
+
+p{
+  color: #777777;
+  text-align: justify;
+  padding: 5px 0px 5px 0px;
+}
+
+.GreenLine {
+  width: 100%;
+  height: 5px;
+  background-color: #4aaaa5;
+}
+
+.Footer {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  height: 30px;
+  background-color: #666666;
+}
+
+h3 {
+  color: white;
+  margin-top: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4aaaa5;
+}
+
+.container {
+  padding-top: 10px;
+}
+
+textarea {
+  padding-bottom: 10px;
+}
+
+label {
+  color: #777777;
+  text-align: justify;
+}
+ 
+.Portfolio {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 2em;
+  overflow: hidden;
+  max-width: none;
+  height: 655px;
+  background-color: #ffffff;
+  padding: 20px 20px 20px 20px;
+  margin: 30px 150px 30px 150px;
+}
+
+.box{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.text{
+  position: absolute;
+  z-index: 999;
+  width: 40%;
+  left: 0;
+  right: 0;
+  top: 65%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  background-color: #4aaaa5;
+}
+
+h6 { 
+  text-align: center;
+  margin-bottom: 0px; 
+  color:  #ffffff;
 }
